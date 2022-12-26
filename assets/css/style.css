@@ -1,0 +1,63 @@
+img {
+    width: 350px;
+    height: 290px;
+    margin: 20px
+}
+
+.product {
+    float: left;
+    background-color: green;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.product input {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.product p {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.product button {
+    margin-bottom: 20px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+
+.buy {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.buy .detail {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.buy .group {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.buy .group input{
+    border: none;
+}
+
+.group .circle {
+    border-radius: 12px;
+    background-color: red;
+    width: 15px;
+}

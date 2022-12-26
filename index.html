@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando el total</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/calculando_total.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="product">
+            <form action="" method="">
+                <img src="assets/img/nitro5.png" alt="">
+                <h3>LAPTOP ACER 5 NITRO</h3>
+                <input type="number" name="cantidad" id="txt-cantidad" value="1">
+                <input type="text" name="color" id="txt-color" value="red">
+                <input type="hidden" name="precio" id="txt-precio" value="1200000">
+                <p id="txt-precio-2">Precio 1.200.000</p>
+                <button type="button" onclick="calcular_total()"> CALCULAR TOTAL</button>
+
+            </form>
+        </div>
+        <div class="buy">
+            <div class="detail">
+                <div class="group">
+                    <label for="txt-buy-total">TOTAL</label>
+                    <input type="text" name="buy-total" id="txt-buy-total" disabled value="1.200.000">
+                </div>
+                <div class="group">
+                    <label for="txt-buy-cantidad">CANTIDAD</label>
+                    <input type="text" name="buy-cantidad" id="txt-buy-cantidad" disabled value="1">
+                </div>
+                <div class="group">
+                    <label for="txt-buy-color">COLOR</label>
+                    <input class="circle" type="text" name="buy-color" id="txt-buy-color" disabled>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
